@@ -1,0 +1,51 @@
+var movie = [
+{  	"id" : "1",
+	"name" : "Stuber",
+	"year" : "2019",
+	"image" : "img/stuber.jpg",
+	"description" : "After crashing his car, a cop who's recovering from eye surgery recruits an Uber driver to help him catch a heroin dealer. The mismatched pair soon find themselves in for a wild day of stakeouts and shootouts."
+},{
+  	"id" : "2",
+	"name" : "Catherine the great",
+	"year" : "2019",
+	"image" : "img/catherine_the_great.jpg",
+	"description" : "This four-part historical drama follows the end of Catherine the Great's reign and her affair with Russian military leader Grigory Potemkin that helped shape the future of Russian politics."
+},{
+	"id" : "3",
+	"name" : "Raising Dion",
+	"year" : "2019",
+	"image" : "img/raising_dion.jpg",
+	"description" : "A widowed single mom discovers that her son has super powers and tries to figure out how to raise him safely and responsibly."
+},{
+	"id" : "4",
+	"name" : "Rogue warfare",
+	"year" : "2019",
+	"image" : "img/rogue_warfare.jpg",
+	"description" : "A group of military elite from the U.S., Russia, UK, China and France join forces to fight an elite underground terrorist network."
+},{
+	"id" : "5",
+	"name" : "Inside man most wanted",
+	"year" : "2019",
+	"image" : "img/inside_man_most_wanted.jpg",
+	"description" : "An NYPD hostage negotiator teams up with a federal agent to rescue dozens of tourists held hostage."
+},{	
+ 	"id" : "6",
+	"name" : "Doom Annihilation",
+	"year" : "2019",
+	"image" : "img/doom_annihilation.jpg",
+	"description" : "Follows a group of UAC Marines as they respond to a distress call from a top secret scientific base on Phobos, a Martian moon, only to discover it's been overrun by demons who threaten to create Hell on Earth."
+},{
+	"id" : "7",
+	"name" : "Light of my life",
+	"year" : "2019",
+	"image" : "img/light_of_my_life.jpg",
+	"description" : "Parent and child journey through the outskirts of society a decade after a pandemic has wiped out half the world's population."
+},{
+  	"id" : "8",
+	"name" : "Crawl",
+	"year" : "2019",
+	"image" : "img/crawl.jpg",
+	"description" : "A young woman, while attempting to save her father during a category 5 hurricane, finds herself trapped in a flooding house and must fight for her life against alligators."
+}
+]
+

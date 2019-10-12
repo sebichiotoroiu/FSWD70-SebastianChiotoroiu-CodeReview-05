@@ -1,0 +1,27 @@
+
+#topRow, #footer{
+    background-color: black;
+}
+
+.container-fluid, .container-fluid1 {
+    background-color: #171E24;
+    
+}
+
+.movie-container{
+    background-color: #111;
+}
+.img {
+	justify-content: space-around;
+    width: 100px;
+    height:140px;
+}
+
+.movie_container{
+    background-color: #111;    
+}
+#footer{
+    margin-top: 130px;
+    background-color: #000000;
+}
+

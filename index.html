@@ -1,9 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Movie Factory</title>
-</head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 <body>
-<p>Movie Factory</p>
+	
+	</select>
+	<div class="container-fluid">
+		<!-------------------Start header--------------->
+		<div class="row justify-content-center" id="header">
+            <div class="col-sm-12 row justify-content-center">
+                <p class="h1 text-light">Movie Factory</p>
+            </div>
+        </div>
+        <!--------------------End header---------------->
+        <!--------------------Start navbar-------------->
+        <div class="row bg-dark justify-content-center">
+        	<div class="col-sm-12">
+                <p class="h4"><a href="#" class="text-light">Home</a></p>
+            </div>
+        </div>
+        <!--------------------End navbar---------------->
+        <!------------------------------------------Start Main-Container---------------------------------------------------->
+        <!-----------------------------------------Sort--------------------------------------------------------------------->
+        <div class="container-fluid1">
+            <div class="row pt-4">
+                <p class="col-sm-7 h2 text-right pr-4 text-light">Movies</p>
+                <select class="col-sm-1 offset-3" name="movie" id="select">
+					<option value="all">All</option>
+					<option value="total_clicksContainer">>5 likes</option>
+					<option value="total_clicksContainer">>50 likes</option>
+					<option value="total_clicksContainer">>=100 likes</option>
+				</select>
+            </div>
+        <!-----------------------------------------End Sort--------------------------------------------------------------->
+        <!---------------------------------------Start movies container--------------------------------------------------->
+            <div id="movies_container" class="row last_row mb- d-flex justify-content-around">
+                	
+            </div>
+       	<!------------------------------------------Movies container end---------------------------------------------------->
+		<!------------------------------------------start Footer---------------------------------------------------->
+        <div class="row" id="footer">
+            <div class="col-sm-12 row justify-content-center">
+                <p class="h1 text-light">Movie Factory</p>
+            </div>
+        </div>
+       
+       	<!------------------------------------------End Footer---------------------------------------------------->
+	</div>
+		
+	<!-- JSON FILE	 -->
+	<script type="text/javascript" src="js/data.json"></script>		
+
+	<!-- JAVASCRIPT FILE -->
+	<script type="text/javascript" src="js/myscript.js"></script>
+	
 </body>
 </html>
